@@ -5,8 +5,10 @@ SmartHomeBench contains various malicious IoT apps collected from [IoTBench](htt
 
 ## Introduction
 
+The introductions of our designed malicious IoT apps are as follows:
+
 | Function name |File | Description |
-| ------------- || ------------------------------ |
+| ------------- |-----| ------------|
 | `N1`     | N1.groovy| If the user present, turn curling iron on after 10 minutes; If not present, turn curling iron off.       |
 | `N2`  |  N2.groovy| Unlock and then lock the door if user present; Lock the door if not present.    |
 | `N3`   | N3.groovy| Brewing coffee if user is present; Close coffer maker if it is sleep time.   |
